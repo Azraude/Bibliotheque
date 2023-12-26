@@ -1,0 +1,180 @@
+/* BOOK  */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    /* Vous pouvez ajuster cette largeur */
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    margin: 0 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+.page-link:hover {
+    text-decoration: underline;
+}
+
+/* END BOOK  */
+
+/* SUSCRIBERS  */
+.abonne-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.abonne {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    margin: 0 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+.page-link:hover {
+    text-decoration: underline;
+}
+
+
+/* END SUSCRIBERS */
+
+/* SUSCRIBERS DETAILS  */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.label_details {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.input_details {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.input_submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #555;
+}
+
+h2 {
+    color: #333;
+}
+
+/* NAVBAR  */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* LOGIN  */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #555;
+}
